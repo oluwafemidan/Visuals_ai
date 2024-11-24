@@ -1,0 +1,10 @@
+google-generativeai
+langchain_google_genai
+langchain_core
+langchain-community
+easyocr
+gtts
+pillow
+streamlit
+requests
+ipython
