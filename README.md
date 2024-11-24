@@ -46,7 +46,7 @@ Ensure you have the following installed:
 1. Run the Streamlit application
    ```bash
    streamlit run app.py
-2. Open the app in your browser (default: http://localhost:8501).
+2. Open the app in your browser (default: `http://localhost:8501`).
 3. Upload an image to begin.
 
 ## How It Works
