@@ -101,7 +101,7 @@ if uploaded_file:
     task_1, task_2, task_3, task_4 = st.columns(4)
     if task_1.button("Scene Understanding", icon="🎬", use_container_width=True):
         prompt = """ Real-Time Scene Understanding:
-        In details generate descriptive and detailed textual outputs that clearly interpret the content of the uploaded image, helping users comprehend the scene effectively.
+        In full details generate descriptive and detailed textual outputs that clearly interpret the content of the uploaded image, helping users comprehend the scene effectively.
         """
 
         # Run the pipeline using LangChain's Runnable framework
@@ -152,7 +152,7 @@ if uploaded_file:
 
     if task_3.button("Object & Obstacle Detector", icon="🔍",use_container_width=True):
         prompt =  """Object and Obstacle Detection for Safe Navigation:
-                In details identify and highlight objects or obstacles in the image, providing essential information to enhance user safety and situational awareness.
+                In full details identify and highlight objects or obstacles in the image, providing essential information to enhance user safety and situational awareness.
                 """
 
         # Run the pipeline using LangChain's Runnable framework
