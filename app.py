@@ -9,6 +9,19 @@ from gtts import gTTS
 from IPython.display import Audio
 
 
+
+
+# Set up Streamlit page
+st.set_page_config(page_title="AuralEyes")
+st.title("👁️ AuralEyes - AI Assistant for Visually Impaired")
+st.sidebar.title("⚙️ Features")
+st.sidebar.markdown("""
+- Scene Understanding
+- Text-to-Speech
+- Object & Obstacle Detector
+- Personalized Assistance             
+""")
+
 # Custom CSS for rainbow background
 custom_css = """
 <style>
@@ -37,16 +50,6 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 
-# Set up Streamlit page
-st.set_page_config(page_title="AuralEyes")
-st.title("👁️ AuralEyes - AI Assistant for Visually Impaired")
-st.sidebar.title("⚙️ Features")
-st.sidebar.markdown("""
-- Scene Understanding
-- Text-to-Speech
-- Object & Obstacle Detector
-- Personalized Assistance             
-""")
 
 # Initialize memory storage
 if "memory" not in st.session_state:
