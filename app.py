@@ -38,9 +38,9 @@ else:
     st.sidebar.write("No tasks completed yet.")
 
 
-genai.configure(api_key="AIzaSyCvKkH60utBD8YWXjA87rAn2hFbw6BtBUY")
+api_key = st.secrets["GOOGLE_API_KEY"]
+genai.configure(api_key=api_key)
 
-#genai.configure(api_key=GOOGLE_API_KEY)
 
 # define LangChain Prompt Template
 langchain_prompt = PromptTemplate(
