@@ -2,7 +2,7 @@ import google.generativeai as genai
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import Runnable
 from PIL import Image
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import streamlit as st
 import easyocr
 from gtts import gTTS
