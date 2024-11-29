@@ -15,7 +15,7 @@
 
 ---
 
-## <div align="center">Aural Eyes Flow chart </div>
+## <div align="center">AuralEyes Flow chart </div>
 <div align="center"><img src ="https://github.com/user-attachments/assets/4b698fd3-2071-4f91-9c3b-b90fafc3abc3"></div>
 
 ## Installation
@@ -106,7 +106,7 @@ The application integrates multiple libraries for various functionalities:
 
 -   **Feature Buttons:** Each feature button triggers a specific task (e.g., Scene Understanding, Text-to-Speech).
 
-# <div align="center">Aural Eyes UI</div>
+# <div align="center">AuralEyes UI</div>
 <div align="center"><img src ="https://github.com/user-attachments/assets/6413050e-7087-4394-a3e8-28f9a20f01d9"></div>
 <div align="center"><img src ="https://github.com/user-attachments/assets/e82796f7-5351-4008-9241-a085be26c791"></div>
 
