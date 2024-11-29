@@ -9,6 +9,34 @@ from gtts import gTTS
 from IPython.display import Audio
 
 
+# Custom CSS for rainbow background
+custom_css = """
+<style>
+    body {
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #9796f0, #c9d6ff, #f6d365, #fda085);
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+    }
+
+    @keyframes gradientAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    /* Optional: Add a backdrop effect for content readability */
+    .stApp {
+        background: rgba(255, 255, 255, 0.8);  /* Semi-transparent white */
+        padding: 10px;
+        border-radius: 10px;
+    }
+</style>
+"""
+
+# Inject the custom CSS
+st.markdown(custom_css, unsafe_allow_html=True)
+
+
 # Set up Streamlit page
 st.set_page_config(page_title="AuralEyes")
 st.title("👁️ AuralEyes - AI Assistant for Visually Impaired")
